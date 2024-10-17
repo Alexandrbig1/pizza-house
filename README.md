@@ -47,8 +47,8 @@ View the design highlights and key visuals for the Chicago Slice House on Dribbb
 
 ## Project Preview
 
-![Chicago Slice House Design](images/pp1.png)
-![Chicago Slice House Design](images/pp5.png)
+![Pizza House Design](images/pizzeria.png)
+![Pizza House Design](images/pizzeria1.png)
 
 ---
 
