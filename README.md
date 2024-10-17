@@ -59,7 +59,7 @@ We welcome and encourage contributions from the community! Whether you’re a de
 1. **Fork the Repository**: Click on the `"Fork"` button in the top right corner to create a copy of this repository on your GitHub account.
 2. **Clone the Repository**: Clone the forked repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/chicago-slice-house.git
+   git clone https://github.com/your-username/pizza-house.git
    ```
 3. **Create a Branch**: Create a new branch for your contributions.
    ```bash
