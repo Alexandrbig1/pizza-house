@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* footer css */
+
+.footer{
+    background: #EDE0D4;
+    height: 251px;
+    display: flex;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 4rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+   
+}
+
+.logo1{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    color: #414833;
+    
+}
+
+.logo2{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    color: #0A0908;
+}
+
+.contact{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.second{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin-right: 4rem;
+    max-width: fit-content;
+}
+.second p{
+    align-self: flex-end;
+}
+
+
+.quote{
+    align-self: flex-start;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #656D4A;
+}
+
+.name{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.name span{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
