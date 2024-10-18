@@ -1,65 +1,112 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font: 400 20px/1.5em "Inter", Arial, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+.logo span,
+.pizza,
+h4,
+footer section+section span,
+footer section+section span+span,
+.contact {
+    font: 800 18px/21px "Raleway", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+header .logo span {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    color: #70E000;
+}
+
+.logo span+span {
+    color: white;
+    right: 5.8%;
+}
+
 /* footer css */
 
-.footer{
+.footer {
     background: #EDE0D4;
     height: 251px;
     display: flex;
     align-items: center;
 }
-.first{
+
+.first {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin-left: 4rem;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     gap: 24px;
-   
+
 }
 
-.logo1{
+.logo1 {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     color: #414833;
-    
+
 }
 
-.logo2{
+.logo2 {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     color: #0A0908;
 }
 
-.contact{
+.contact {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 20px;
     text-transform: uppercase;
 }
 
-.second{
+.second {
     display: flex;
     width: 60%;
     flex-direction: column;
     margin-right: 4rem;
     max-width: fit-content;
 }
-.second p{
+
+.second p {
     align-self: flex-end;
 }
 
 
-.quote{
+.quote {
     align-self: flex-start;
     font-family: 'Raleway';
     font-weight: 800;
@@ -68,14 +115,14 @@ body{
     color: #656D4A;
 }
 
-.name{
+.name {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 28px;
     text-transform: uppercase;
 }
 
-.name span{
+.name span {
     font-size: 22px;
     text-transform: uppercase;
     margin-right: 10px;
