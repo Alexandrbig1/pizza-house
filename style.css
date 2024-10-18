@@ -1,5 +1,42 @@
-* {
+/******************************************
+/* RESET STYLES
+/*******************************************/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .clearfix:after {
@@ -26,6 +63,33 @@ body {
     box-sizing: border-box;
 }
 
+/******************************************
+/* HEADER STYLES
+/*******************************************/
+
+.header {
+    height: 72px;
+    position: relative;
+    background-color: #656D4A;
+    ;
+}
+
+.header-items {
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 14px;
+}
+
+.header-items:first-child {
+    margin-left: 96px;
+}
+
+.header-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
 .logo span,
 .pizza,
 h4,
@@ -44,6 +108,30 @@ header .logo span {
 }
 
 .logo span+span {
+    color: white;
+    right: 5.8%;
+}
+
+.logo-img {
+    display: inline;
+    position: absolute;
+    right: 15%;
+    top: 18%;
+}
+
+.logo {
+    width: 50%;
+    float: left;
+}
+
+.logo-slice {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    color: #70E000;
+}
+
+.logo-house {
     color: white;
     right: 5.8%;
 }
